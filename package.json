@@ -1,0 +1,28 @@
+{
+  "name": "@besomwebcraft/astro-healthcheck",
+  "version": "1.0.0",
+  "description": "Add healthcheck endpoint to astro site",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "lint": "prettier ."
+  },
+  "keywords": [
+    "astro-integration"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Besom-Webcraft/astro-healthcheck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Besom-Webcraft/astro-healthcheck/issues"
+  },
+  "homepage": "https://github.com/Besom-Webcraft/astro-healthcheck#readme",
+  "devDependencies": {
+    "astro": "^4.0.8",
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.3"
+  }
+}
