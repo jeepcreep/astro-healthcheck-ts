@@ -1,7 +1,7 @@
 {
-  "name": "@besomwebcraft/astro-healthcheck",
-  "version": "1.0.0",
-  "description": "Add healthcheck endpoint to astro site",
+  "name": "astro-healthcheck-ts",
+  "version": "1.0.2",
+  "description": "Add healthcheck endpoint to astro site - typescript-compatible",
   "type": "module",
   "main": "index.mjs",
   "scripts": {
@@ -14,15 +14,16 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Besom-Webcraft/astro-healthcheck.git"
+    "url": "git+https://github.com/jeepcreep/astro-healthcheck-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/Besom-Webcraft/astro-healthcheck/issues"
+    "url": "https://github.com/Besom-Webcraft/astro-healthcheck/pulls"
   },
-  "homepage": "https://github.com/Besom-Webcraft/astro-healthcheck#readme",
+  "homepage": "https://github.com/jeepcreep/astro-healthcheck-ts.git#readme",
   "devDependencies": {
     "astro": "^4.0.8",
     "prettier": "^3.1.1",
-    "prettier-plugin-astro": "^0.12.3"
+    "prettier-plugin-astro": "^0.12.3",
+    "typescript": "^5.6.3"
   }
 }

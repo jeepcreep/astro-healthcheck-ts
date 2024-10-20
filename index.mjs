@@ -3,12 +3,12 @@
  */
 export default function createIntegration() {
   return {
-    name: "@besomwebcraft/astro-healthcheck",
+    name: "astro-healthcheck-ts",
     hooks: {
       "astro:config:setup": ({ injectRoute }) => {
         injectRoute({
           pattern: "healthcheck",
-          entrypoint: "@besomwebcraft/astro-healthcheck/healthcheck.mjs",
+          entrypoint: "astro-healthcheck-ts/healthcheck.mjs",
         });
       },
     },

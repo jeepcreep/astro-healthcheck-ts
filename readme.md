@@ -1,13 +1,13 @@
 # Astro Healthcheck
 
-Add healthcheck endpoint to astro site.
+Add healthcheck endpoint to astro site (typescript compatible)
 
 ## Install
 
 ### Automatic (recomended)
 
 ```
-npx astro add @besomwebcraft/astro-healthcheck
+npx astro add astro-healthcheck-ts
 ```
 
 ## Usage
@@ -15,11 +15,11 @@ npx astro add @besomwebcraft/astro-healthcheck
 ### Explicit
 
 ```http
-GET yoursite.com/heathcheck -> 200 { healthy: true }
+GET yoursite.com/healthcheck -> 200 { healthy: true }
 ```
 
 ### Less bandwidth 
 
 ```http
-HEAD yoursite.com/heathcheck -> 204
+HEAD yoursite.com/healthcheck -> 204
 ```
